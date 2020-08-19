@@ -1,0 +1,60 @@
+body{
+    background: #232323;
+    font-family: "Nunito";
+    margin: 0;;
+}
+.box {
+    background-color: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.25%;
+    transition: background 0.6s;
+    border-radius: 20%;
+}
+
+.container {
+    max-width: 550px;
+    margin: 5% auto;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    background-color: #1FB4DE;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px auto;
+}
+
+.selected {
+    background-color: #1FB4DE;
+}
+
+#bot {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    margin: 0;
+}
+
+button {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    letter-spacing: 1px;
+    transition: all 1s;
+}
+
+#msg {
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: white;
+    background: #1FB4DE;
+}
